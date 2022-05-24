@@ -6,11 +6,9 @@ def fib_n(n):
         return
     a=0
     b=1
-    print(a,end=' ')
-    print(b,end=' ')
-    for i in range(n-2):
+    for i in range(n):
+        print(a,end=' ')
         c=a+b
-        print(c,end=' ')
         a=b
         b=c
     print()
