@@ -1,7 +1,7 @@
 ''' Many arithmetic functions are naturally defined inductively '''
 # FACTORIAL : n! = n x (n-1) x (n-2)! 
 # MULTIPLICATION (repeated addition):
-# m x 1 = m, m(n+1) = m + (mxn)
+# 5 x 3 = 5 + 5 + 5 or 3 + 3 + 3 + 3 + 3
 
 
 def mult(n, m):
